@@ -41,3 +41,7 @@ my_income = 100         # not true, probably lower than this
 tax_rate = 0.1          # also not true, somehow, much much higher than this
 my_taxes = my_income*tax_rate
 print my_taxes          # prints 10.0
+
+# Quick thought:
+# Why does 0.1+0.2-0.3 NOT equal 0.0 ?
+print 0.1+0.2-0.3     # prints 5.551115123125783e-17; the reason --> https://docs.python.org/2/tutorial/floatingpoint.html
